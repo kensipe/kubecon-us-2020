@@ -1,0 +1,7 @@
+apiVersion: kudo.dev/v1beta1
+kind: TestSuite
+parallel: 4
+timeout: 120
+testDirs:
+  - https://github.com/kensipe/kubecon-us-2020/raw/main/e2e.tgz
+# example of using a url for a test dir
